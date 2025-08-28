@@ -30,8 +30,8 @@ cmd({
                 },
                 message: {
                     contactMessage: {
-                        displayName: 'PKDRILLER ✅',
-                        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER ✅\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                        displayName: 'MEGA V2 ✅',
+                        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:MEGA V2 ✅\nORG:MEGA V2;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
                         jpegThumbnail: null
                     }
                 }
@@ -47,9 +47,9 @@ cmd({
                 contextInfo: {
                     externalAdReply: {
                         title: "HOLY BIBLE VERSES",
-                        body: "Powered by PK-XMD",
-                        thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
-                        sourceUrl: "https://github.com/pkdriller",
+                        body: "Powered by MEGA V2",
+                        thumbnailUrl: "https://files.catbox.moe/khk52l.jpg",
+                        sourceUrl: "https://github.com/Kelvin12350",
                         mediaType: 1,
                         renderLargerThumbnail: false,
                         showAdAttribution: true
@@ -57,8 +57,8 @@ cmd({
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: "120363288304618280@newsletter",
-                        newsletterName: "PK-XMD Bot Updates",
+                        newsletterJid: "120363400223711119@newsletter",
+                        newsletterName: "MEGA V2 Bot Updates",
                         serverMessageId: "",
                     }
                 }
