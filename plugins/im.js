@@ -42,7 +42,7 @@ cmd({
             message: {
                 contactMessage: {
                     displayName: 'IMAGE SEARCH ✅',
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD BOT\nORG:MEGA V2;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:MEGA V2 BOT\nORG:MEGA V2;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
                     jpegThumbnail: null
                 }
             }
