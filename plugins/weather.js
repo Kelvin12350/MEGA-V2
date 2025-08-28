@@ -16,13 +16,13 @@ async (conn, mek, m, { from, q, reply, sender }) => {
         // ✅ Create fake verified contact
         const vcard = `BEGIN:VCARD
 VERSION:3.0
-FN:PK-XMD Official ✅
+FN:MEGA V2 Official ✅
 TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}
 END:VCARD`;
 
         const fakeContact = await conn.sendMessage(from, {
             contacts: {
-                displayName: "PK-XMD Official ✅",
+                displayName: "MEGA V2 Official ✅",
                 contacts: [{ vcard }]
             }
         });
@@ -55,7 +55,7 @@ END:VCARD`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
+                    newsletterJid: '120363400223711119@newsletter',
                     newsletterName: "ᴘᴋ-ɴᴇᴛᴡᴏʀᴋ 🔥",
                     serverMessageId: 100
                 }
