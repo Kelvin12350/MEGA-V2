@@ -84,7 +84,7 @@ ${listAdmin}
             message: {
                 contactMessage: {
                     displayName: 'GROUP INFO ✅',
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD BOT\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:MEGA V2 BOT\nORG:MEGA V2;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
                     jpegThumbnail: null
                 }
             }
@@ -96,9 +96,9 @@ ${listAdmin}
             contextInfo: {
                 externalAdReply: {
                     title: "GROUP INFORMATION",
-                    body: "Powered by PK-XMD",
+                    body: "Powered by MEGA V2",
                     thumbnailUrl: ppUrl,
-                    sourceUrl: "https://github.com/pkdriller",
+                    sourceUrl: "https://github.com/Kelvin12350",
                     mediaType: 1,
                     renderLargerThumbnail: false, // Disabled as requested
                     showAdAttribution: true
@@ -106,8 +106,8 @@ ${listAdmin}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363288304618280@newsletter",
-                    newsletterName: "PK-XMD Bot Updates",
+                    newsletterJid: "120363400223711119@newsletter",
+                    newsletterName: "MEGA V2Bot Updates",
                     serverMessageId: Math.floor(Math.random() * 1000000).toString(),
                 }
             },
