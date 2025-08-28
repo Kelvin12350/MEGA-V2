@@ -35,7 +35,7 @@ cmd({
 👀 *Views:* ${yts.views}
 👤 *Author:* ${yts.author.name}
 🔗 *Link:* ${yts.url}
-> Powered By pk-tech inc`;
+> Powered By MEGA V2 inc`;
 
         // Send video directly with caption
         await conn.sendMessage(
@@ -89,8 +89,8 @@ cmd({
             body: "Join our WhatsApp Channel",
             mediaType: 1,
             thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
-            mediaUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
+            sourceUrl: 'https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145',
+            mediaUrl: 'https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145',
             showAdAttribution: true,
             renderLargerThumbnail: true
         }
