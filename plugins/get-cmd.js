@@ -39,19 +39,19 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-Powered By *pkdriller* 😊🔥`;
+Powered By *heatless* 😊🔥`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/4o9kvi.jpg` },  // Image URL
+            image: { url: `https://files.catbox.moe/khk52l.jpg` },  // Image URL
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: 'pkdriller',
+                    newsletterJid: '120363400223711119@newsletter',
+                    newsletterName: 'MEGA V2',
                     serverMessageId: 143
                 }
             }
