@@ -21,13 +21,13 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: Buffer.from(response.data, "binary"),
-      caption: `🖼️ *Flux AI Image Generated*\n\n✨ *Prompt:* ${q}\n\n⚡ *Powered by NEXUS-AI*\n🌟 *PK-TECH Development*`,
+      caption: `🖼️ *Flux AI Image Generated*\n\n✨ *Prompt:* ${q}\n\n⚡ *Powered by heatless*\n🌟 *MEGA V2 Development*`,
       contextInfo: {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "pk-tech",
+          newsletterJid: '120363400223711119@newsletter',
+          newsletterName: "MEGA V2",
           serverMessageId: 175
         }
       }
@@ -64,8 +64,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "pk-tech",
+          newsletterJid: '120363400223711119@newsletter',
+          newsletterName: "MEGA V2",
           serverMessageId: 176
         }
       }
@@ -97,13 +97,13 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: Buffer.from(response.data, "binary"),
-      caption: `🤖 *Stability AI Creation*\n\n✨ *Prompt:* ${q}\n\n⚡ *Powered by NEXUS-AI*\n🌟 *PK-TECH Development*`,
+      caption: `🤖 *Stability AI Creation*\n\n✨ *Prompt:* ${q}\n\n⚡ *Powered by heatless*\n🌟 *MEGA V2 Development*`,
       contextInfo: {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "pk-tech",
+          newsletterJid: '120363400223711119@newsletter',
+          newsletterName: "MEGA V2",
           serverMessageId: 177
         }
       }
