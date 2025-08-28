@@ -82,7 +82,7 @@ cmd({
       `🌐 URL: ${imageUrl}\n\n` +
       `📝 *Extracted Text:*\n` +
       "```" + extractedText + "```\n\n" +
-      `> 🔗 Powered by OCR.Space | Catbox | PK-XMD`
+      `> 🔗 Powered by Heatless | Catbox | MEGA V2`
     );
 
   } catch (error) {
