@@ -1,8 +1,8 @@
 {
-  "name": "PK-XMD",
-  "description": "Javascript WhatsApp bot made by Pkdriller",
-  "logo": "https://files.catbox.moe/fgiecg.jpg",
-  "keywords": ["PK-XMD"],
+  "name": "MEGA V2",
+  "description": "Javascript WhatsApp bot made by Heatless",
+  "logo": "https://files.catbox.moe/omd83r.jpg",
+  "keywords": ["MEGA V2"],
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -14,7 +14,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "PK-XMD"
+      "value": "MEGA V2"
     },
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
@@ -64,22 +64,22 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY PK-XMD 💜🤎🖤🤍*"
+      "value": "*SEEN YOUR STATUS BY MEGA V2 💜🤎🖤🤍*"
     },
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "pkdriller"
+      "value": "heatless"
     },
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254794146821"
+      "value": "2349039409985"
     },
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "PK-XMD"
+      "value": "Heatless"
     },
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -104,12 +104,12 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/fgiecg.jpg"
+      "value": "https://files.catbox.moe/khk52l.jpg"
     },
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ heatless*"
     },
     "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
