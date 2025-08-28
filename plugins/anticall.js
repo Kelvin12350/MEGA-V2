@@ -21,7 +21,7 @@ cmd({
     },
     message: {
       contactMessage: {
-        displayName: "PK-XMD SYSTEM",
+        displayName: "MEGA V2 SYSTEM",
         vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD SYSTEM\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254700000000\nEND:VCARD"
       }
     }
@@ -41,16 +41,16 @@ Usage:
         externalAdReply: {
           title: "PK-XMD SECURITY",
           body: "Call Blocker Control",
-          thumbnailUrl: "https://telegra.ph/file/8e97f07fd35640fc8fa51.jpg",
-          sourceUrl: "https://github.com/pkdriller/PK-XMD",
+          thumbnailUrl: "https://files.catbox.moe/khk52l.jpg",
+          sourceUrl: "https://github.com/Kelvin12350/MEGA-v2",
           mediaType: 1,
           renderLargerThumbnail: true,
           showAdAttribution: true
         },
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363026736000051@newsletter",
-          newsletterName: "PK-XMD Bot Updates",
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Bot Updates",
           serverMessageId: "77"
         }
       },
@@ -72,15 +72,15 @@ Usage:
           title: "PK-XMD SECURITY",
           body: `AntiCall: ${newState.toUpperCase()}`,
           thumbnailUrl: ".https://files.catbox.moe/fgiecg.jpg",
-          sourceUrl: "https://github.com/mejjar00254/PK-XMD",
+          sourceUrl: "https://github.com/Kelvin12350/MEGA",
           mediaType: 1,
           renderLargerThumbnail: true,
           showAdAttribution: true
         },
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Bot Updates",
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Bot Updates",
           serverMessageId: "78"
         }
       },
