@@ -83,7 +83,7 @@ cmd({
       message: {
         contactMessage: {
           displayName: 'PKDRILLER ✅',
-          vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER ✅\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+          vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER ✅\nORG:MEGA V2;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
           jpegThumbnail: null
         }
       }
@@ -91,12 +91,12 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `✅ Background removed successfully!\n\n> *Powered by Pkdriller*`,
+      caption: `✅ Background removed successfully!\n\n> *Powered by heatless*`,
       contextInfo: {
         externalAdReply: {
           title: "IMAGE BACKGROUND REMOVER",
-          body: "Powered by PK-XMD",
-          thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
+          body: "Powered by MEGA V2",
+          thumbnailUrl: "https://files.catbox.moe/vbnd15.jpg",
           sourceUrl: "https://github.com/pkdriller",
           mediaType: 1,
           renderLargerThumbnail: false,
@@ -105,8 +105,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Bot Updates",
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Bot Updates",
           serverMessageId: "",
         }
       }
