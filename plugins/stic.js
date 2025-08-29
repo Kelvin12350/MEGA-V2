@@ -298,8 +298,8 @@ async (conn, mek, m, { from, sender, reply, args }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: "pk-tech",
+                    newsletterJid: '120363400223711119@newsletter',
+                    newsletterName: "MEGA V2",
                     serverMessageId: 159
                 }
             }
@@ -349,8 +349,8 @@ async (conn, mek, m, { from, sender, body }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363288304618280@newsletter',
-                        newsletterName: "pk-tech",
+                        newsletterJid: '120363400223711119@newsletter',
+                        newsletterName: "MEGA V2",
                         serverMessageId: 160
                     }
                 }
@@ -380,8 +380,8 @@ async (conn, mek, m, { from, sender, body }) => {
                         forwardingScore: 999,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363288304618280@newsletter',
-                            newsletterName: "pk-tech",
+                            newsletterJid: '120363400223711119@newsletter',
+                            newsletterName: "MEGA V2",
                             serverMessageId: 161
                         }
                     }
