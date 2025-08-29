@@ -29,7 +29,7 @@ cmd({
         fs.writeFileSync("./assets/ban.json", JSON.stringify([...new Set(banned)], null, 2));
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/4o9kvi.jpg" },
+            image: { url: "https://files.catbox.moe/3k2wft.jpg" },
             caption: `⛔ User has been banned from using the bot.`
         }, { quoted: mek });
 
@@ -98,7 +98,7 @@ cmd({
         });
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/4o9kvi.jpg" },
+            image: { url: "https://files.catbox.moe/khk52l.jpg" },
             caption: msg
         }, { quoted: mek });
     } catch (err) {
