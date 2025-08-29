@@ -4,7 +4,7 @@ const moment = require('moment-timezone');
 cmd({
   pattern: "support",
   alias: ["supportgroup", "help", "channel"],
-  desc: "Get PK-XMD support, channel & developer contact",
+  desc: "Get MEGA V2 support, channel & developer contact",
   category: "system",
   filename: __filename,
 }, async (Void, m, text) => {
@@ -21,8 +21,8 @@ cmd({
     },
     message: {
       contactMessage: {
-        displayName: "PKDRILLER | PK-XMD",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER | PK-XMD\nORG:PKDRILLER;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+        displayName: "heatless | MEGA V2",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: heatless | MEGA V2\nORG:Heatless;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
         jpegThumbnail: Buffer.alloc(0)
       }
     }
@@ -32,8 +32,8 @@ cmd({
     externalAdReply: {
       title: "📞 PK-XMD • Support & Channel",
       body: `🕒 ${jtime} | 📅 ${jdate}`,
-      thumbnailUrl: 'https://files.catbox.moe/cn1fia.jpg',
-      sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
+      thumbnailUrl: 'https://files.catbox.moe/vbnd15.jpg',
+      sourceUrl: 'https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145',
       mediaType: 1,
       renderLargerThumbnail: true,
       showAdAttribution: true
@@ -46,7 +46,7 @@ cmd({
     }
   };
 
-  const supportText = `*🛠️ PK-XMD Support Center*\n\n╭─❍ *Support Links*\n│👥 Group: https://chat.whatsapp.com/CbY7YiuobJ1AlMJ8PviKpm?\n│📡 Channel: https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x\n│📞 Dev: wa.me/254794146821 (PKDRILLER)\n╰───────────────╮\n\n📌 Feel free to ask for help, request features or report bugs.\n\n⏰ *Time:* ${jtime}\n📅 *Date:* ${jdate}\n\n*Powered by Pkdriller*`;
+  const supportText = `*🛠️ MEGA V2 Support Center*\n\n╭─❍ *Support Links*\n│👥 Group: https://chat.whatsapp.com/CbY7YiuobJ1AlMJ8PviKpm?\n│📡 Channel: https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145\n│📞 Dev: wa.me/2349039409985 (MEGA V2)\n╰───────────────╮\n\n📌 Feel free to ask for help, request features or report bugs.\n\n⏰ *Time:* ${jtime}\n📅 *Date:* ${jdate}\n\n*Powered by MEGA V2*`;
 
   await Void.sendMessage(m.chat, {
     text: supportText,
