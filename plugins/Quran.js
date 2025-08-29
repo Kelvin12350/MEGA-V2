@@ -50,15 +50,15 @@ ${translatedTafsirEnglish.text}`;
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/8fy6up.jpg` },
+        image: { url: `https://files.catbox.moe/3k2wft.jpg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363288304618280@newsletter',
-            newsletterName: 'PK-XMD',
+            newsletterJid: '120363400223711119@newsletter',
+            newsletterName: 'MEGA-V2',
             serverMessageId: 143
           }
         }
