@@ -32,29 +32,29 @@ cmd({
     const time = moment().tz('Africa/Nairobi').format('HH:mm:ss');
     const date = moment().tz('Africa/Nairobi').format('dddd, MMMM Do YYYY');
 
-    const caption = `╭━━〔 *PK-XMD Command List* 〕━━⬣
+    const caption = `╭━━〔 *MEGA V2 Command List* 〕━━⬣
 ┃ 👑 *Total Commands:* ${totalCommands}
 ┃ 📅 *Date:* ${date}
 ┃ ⏰ *Time:* ${time}
 ╰━━━━━━━━━━━━━━━━━━━━⬣\n\n${commandList.join('\n\n')}`;
 
     await Void.sendMessage(m.chat, {
-      image: { url: "https://files.catbox.moe/fgiecg.jpg" },
+      image: { url: "https://files.catbox.moe/khk52l.jpg" },
       caption,
       contextInfo: {
         forwardingScore: 999,
         isForwarded: true,
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Official",
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Official",
           serverMessageId: 2
         },
         externalAdReply: {
-          title: "PK-XMD Plugin List",
-          body: `Powered by Pkdriller`,
+          title: "MEGA V2 Plugin List",
+          body: `Powered by Heatless,
           mediaType: 1,
-          sourceUrl: "https://github.com/mejjar00254/PK-XMD",
+          sourceUrl: "https://github.com/Kelvin12350/MEGA-v2",
           renderLargerThumbnail: false,
           showAdAttribution: true
         }
@@ -69,7 +69,7 @@ cmd({
         message: {
           contactMessage: {
             displayName: "PK-XMD | Powered by Pkdriller",
-            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD | Pkdriller\nORG:Pkdriller;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:MEGA V2 |Heatless\nORG:heatless;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
             jpegThumbnail: Buffer.alloc(0)
           }
         }
