@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for PK-XMD bot",
+    desc: "Get pairing code for MEGA V2 bot",
     category: "download",
-    use: ".pair 254700123456",
+    use: ".pair 2349039409985",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, args, q, senderNumber, reply }) => {
@@ -26,16 +26,16 @@ async (conn, mek, m, { from, quoted, args, q, senderNumber, reply }) => {
         const pairingCode = res.data.code;
 
         const codeMessage = `
-╭─〔 *PK-XMD PAIRING SUCCESSFUL* 〕
+╭─〔 *MEGA V2 PAIRING SUCCESSFUL* 〕
 │
 ├─ *📱 Number:* ${phoneNumber}
 ├─ *🔗 Pairing Code:* ${pairingCode}
 │
-╰─ *🚀 Powered by Pkdriller*
+╰─ *🚀 Powered by heatless*
 `.trim();
 
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/9pxerh.jpg` },
+            image: { url: `https://files.catbox.moe/hbf48k.jpg` },
             caption: codeMessage,
             footer: 'Tap below to get code again for copying:',
             templateButtons: [
@@ -52,15 +52,15 @@ async (conn, mek, m, { from, quoted, args, q, senderNumber, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: 'PK-XMD UPDATES',
+                    newsletterJid: '120363400223711119@newsletter',
+                    newsletterName: 'MEGA V2 UPDATES',
                     serverMessageId: 119
                 },
                 externalAdReply: {
-                    title: "PK-XMD BOT",
+                    title: "MEGA V2 BOT",
                     body: "Auto pairing code system",
-                    thumbnailUrl: `https://files.catbox.moe/9pxerh.jpg`,
-                    sourceUrl: "https://github.com/nexustech1911/PK-XMD"
+                    thumbnailUrl: `https://files.catbox.moe/3nm5ov.jpg`,
+                    sourceUrl: "https://github.com/Kelvin12350/MEGA-MD v2"
                 }
             }
         }, {
@@ -72,8 +72,8 @@ async (conn, mek, m, { from, quoted, args, q, senderNumber, reply }) => {
                 },
                 message: {
                     contactMessage: {
-                        displayName: "PK-XMD VERIFIED",
-                        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:BOT;PK-XMD;;;\nFN:PK-XMD\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                        displayName: "MEGA V2 VERIFIED",
+                        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:BOT;MEGA V2;;;\nFN:MEGA V2\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
                     }
                 }
             }
