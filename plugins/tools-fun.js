@@ -23,8 +23,8 @@ cmd({
       text: `🤣 *Here's a random joke for you!* 🤣\n\n*${joke.setup}*\n\n${joke.punchline} 😆`,
       contextInfo: {
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Official"
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Official"
         }
       }
     }, { quoted: mek });
@@ -51,8 +51,8 @@ cmd({
       text: `💘 *Flirty Message* 💘\n\n${data.pickup}`,
       contextInfo: {
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Official"
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Official"
         }
       }
     }, { quoted: mek });
@@ -78,8 +78,8 @@ cmd({
       text: `🧠 *Did You Know?* 🧠\n\n${data.text}`,
       contextInfo: {
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Official"
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Official"
         }
       }
     }, { quoted: mek });
@@ -105,7 +105,7 @@ cmd({
       text: `❓ *Truth Question* ❓\n\n${data.question}`,
       contextInfo: {
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
+          newsletterJid: "120363400223711119@newsletter",
           newsletterName: "PK-XMD Official"
         }
       }
@@ -133,7 +133,7 @@ cmd({
       contextInfo: {
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Official"
+          newsletterName: "MEGA V2 Official"
         }
       }
     }, { quoted: mek });
@@ -167,8 +167,8 @@ cmd({
       mentions: [mentioned],
       contextInfo: {
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Official"
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Official"
         }
       }
     }, { quoted: mek });
