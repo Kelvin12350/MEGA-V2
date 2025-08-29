@@ -23,7 +23,7 @@ cmd({
     
     // Beautiful ping message
     const message = `
-⚡ *PK-XMD PING RESULTS* ⚡
+⚡ *MEGA V2 PING RESULTS* ⚡
 
 🏓 Response Speed: ${speed}ms
 🌍 Server Location: Africa/Nairobi
@@ -38,16 +38,16 @@ cmd({
       externalAdReply: {
         title: "PK-XMD • PING",
         body: `Response: ${speed}ms`,
-        thumbnailUrl: 'https://files.catbox.moe/fgiecg.jpg',
-        sourceUrl: 'https://github.com/mejjar00254/PK-XMD',
+        thumbnailUrl: 'https://files.catbox.moe/khk52l.jpg',
+        sourceUrl: 'https://github.com/mejjar00254/MEGA V2',
         mediaType: 1,
         renderLargerThumbnail: true
       },
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363288304618280@newsletter",
-        newsletterName: "PK-XMD Official",
+        newsletterJid: "120363400223711119@newsletter",
+        newsletterName: "MEGA V2 Official",
         serverMessageId: 456
       }
     };
