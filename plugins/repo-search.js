@@ -45,15 +45,15 @@ cmd({
       isForwarded: true,
       externalAdReply: {
         title: "GitHub Repository",
-        body: "Search by PK-XMD",
-        thumbnailUrl: "https://files.catbox.moe/lvrpek.jpg",
+        body: "Search by MEGA V2",
+        thumbnailUrl: "https://files.catbox.moe/vbnd15.jpg",
         mediaType: 1,
         renderLargerThumbnail: true,
         showAdAttribution: true,
         sourceUrl: data.html_url
       },
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363288304618280@newsletter",
+        newsletterJid: "120363400223711119@newsletter",
         newsletterName: "GitHub Verified",
         serverMessageId: "",
       }
