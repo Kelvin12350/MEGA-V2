@@ -9,7 +9,7 @@ cmd({
   pattern: "update",
   alias: ["upgrade", "sync"],
   react: '🧠',
-  desc: "Update PK-XMD bot from GitHub.",
+  desc: "Update MEGA V2 bot from GitHub.",
   category: "system",
   filename: __filename
 }, async (conn, m, text, { reply, isOwner }) => {
