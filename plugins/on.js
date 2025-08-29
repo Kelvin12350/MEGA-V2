@@ -94,8 +94,8 @@ async (conn, mek, m, {
                 externalAdReply: {
                     title: "GROUP ACTIVITY",
                     body: `Detected ${activeMembers.length} active members`,
-                    thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
-                    sourceUrl: "https://github.com/pkdriller",
+                    thumbnailUrl: "https://files.catbox.moe/hbf48k.jpg",
+                    sourceUrl: "https://github.com/Kelvin12350",
                     mediaType: 1,
                     renderLargerThumbnail: false,
                     showAdAttribution: true
@@ -103,8 +103,8 @@ async (conn, mek, m, {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363288304618280@newsletter",
-                    newsletterName: "PK-XMD Bot Updates",
+                    newsletterJid: "120363400223711119@newsletter",
+                    newsletterName: "MEGA V2 Bot Updates",
                     serverMessageId: Math.floor(Math.random() * 1000000).toString(),
                 }
             }
