@@ -13,30 +13,30 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Pkphotographer1911/PK-XMD';
+    const githubRepoURL = 'https://github.com/Kelvin12350/MEGA-v2';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
 
-        const response = await axios.get(`https://api.github.com/repos/pkphotographer1911/PK-XMD`);
+        const response = await axios.get(`https://api.github.com/repos/pkphotographer1911/MEGA V2`);
         const repoData = response.data;
 
         const formattedInfo = `
-╭─〔 *PK-XMD REPOSITORY* 〕
+╭─〔 *MEGA V2 REPOSITORY* 〕
 │
 ├─ *📌 Repo Name:* ${repoData.name}
 ├─ *👤 Owner:* ${repoData.owner.login}
 ├─ *⭐ Stars:* ${repoData.stargazers_count}
 ├─ *⑂ Forks:* ${repoData.forks_count}
-├─ *📄 Description:* ${repoData.description || 'Powerful WhatsApp Multi-Device Bot by Pkdriller'}
+├─ *📄 Description:* ${repoData.description || 'Powerful WhatsApp Multi-Device Bot by heatless'}
 │
 ├─ *🔗 GitHub Link:*
 │   ${repoData.html_url}
 │
 ├─ *🌍 Channel:*
-│   https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
+│   https://whatsapp.com/channel/0029Vb6QmBO3LdQSbKC7F145
 │
-╰─ *🚀 Powered by Pkdriller*
+╰─ *🚀 Powered by heatless*
 `.trim();
 
         await conn.sendMessage(from, {
@@ -47,8 +47,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: 'PK-XMD UPDATES',
+                    newsletterJid: '120363400223711119@newsletter',
+                    newsletterName: 'MEGA V2 UPDATES',
                     serverMessageId: 110
                 }
             }
@@ -60,8 +60,8 @@ async (conn, mek, m, { from, reply }) => {
             },
             message: {
                 contactMessage: {
-                    displayName: "PK-XMD VERIFIED",
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:PK-XMD;BOT;;;\nFN:PK-XMD\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
+                    displayName: "MEGA V2 VERIFIED",
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:MEGA V2;BOT;;;\nFN:MEGA V2\nitem1.TEL;waid=254700000000:+254 700 000000\nitem1.X-ABLabel:Bot\nEND:VCARD`
                 }
             }
         } });
