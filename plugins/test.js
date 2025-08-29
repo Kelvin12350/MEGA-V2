@@ -22,7 +22,7 @@ cmd({
 
     // Beautiful test report
     const message = `
-🧪 *PK-XMD SYSTEM TEST* 🧪
+🧪 *MEGA V2 SYSTEM TEST* 🧪
 
 ✅ Bot Responsive: Yes
 ⚡ Response Speed: ${speed}ms
@@ -43,16 +43,16 @@ cmd({
       externalAdReply: {
         title: "PK-XMD • SYSTEM CHECK",
         body: `All Systems Normal | ${speed}ms`,
-        thumbnailUrl: 'https://files.catbox.moe/fgiecg.jpg',
-        sourceUrl: 'https://github.com/mejjar00254/PK-XMD',
+        thumbnailUrl: 'https://files.catbox.moe/hbf48k.jpg',
+        sourceUrl: 'https://github.com/mejjar00254/MEGA V2',
         mediaType: 1,
         renderLargerThumbnail: true
       },
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363288304618280@newsletter",
-        newsletterName: "PK-XMD Official",
+        newsletterJid: "120363400223711119@newsletter",
+        newsletterName: "MEGA V2 Official",
         serverMessageId: 789
       }
     };
