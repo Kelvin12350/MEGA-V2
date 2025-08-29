@@ -17,7 +17,7 @@ cmd({
 
     // Simple and clean status message
     const message = `
-⚡ *PK-XMD BOT STATUS* ⚡
+⚡ *MEGA V2 BOT STATUS* ⚡
 
 🌍 Server Time: ${time}
 📅 Date: ${date}
@@ -29,18 +29,18 @@ cmd({
     // Newsletter context info
     const contextInfo = {
       externalAdReply: {
-        title: "PK-XMD • BOT STATUS",
+        title: "MEGA V2 • BOT STATUS",
         body: `Online since ${uptime}`,
-        thumbnailUrl: 'https://files.catbox.moe/fgiecg.jpg',
-        sourceUrl: 'https://github.com/mejjar00254/PK-XMD',
+        thumbnailUrl: 'https://files.catbox.moe/hbf48k.jpg',
+        sourceUrl: 'https://github.com/Kelvin12350/MEGA-v2',
         mediaType: 1,
         renderLargerThumbnail: true
       },
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363288304618280@newsletter",
-        newsletterName: "PK-XMD Official",
+        newsletterJid: "120363400223711119@newsletter",
+        newsletterName: "MEGA V2 Official",
         serverMessageId: 789
       }
     };
