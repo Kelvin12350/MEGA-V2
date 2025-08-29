@@ -41,7 +41,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             teks += `${randomEmoji} @${admin.split('@')[0]}\n`;
         }
 
-        teks += "└──★💙 PK ┃ XMD 💙★──";
+        teks += "└──★💙 MEGA ┃ v2 💙★──";
 
         let fakeContact = {
             key: {
@@ -51,8 +51,8 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             },
             message: {
                 contactMessage: {
-                    displayName: 'PKDRILLER ✅',
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER ✅\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                    displayName: 'hestless ✅',
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: heatless ✅\nORG:MEGA V2;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
                     jpegThumbnail: null
                 }
             }
@@ -64,9 +64,9 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             contextInfo: {
                 externalAdReply: {
                     title: "ADMIN PINGER",
-                    body: "Powered by Pkdriller",
-                    thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
-                    sourceUrl: "https://github.com/pkdriller",
+                    body: "Powered by heatless",
+                    thumbnailUrl: "https://files.catbox.moe/hbf48k.jpg",
+                    sourceUrl: "https://github.com/Kelvin12350",
                     mediaType: 1,
                     renderLargerThumbnail: false,
                     showAdAttribution: true
@@ -74,8 +74,8 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363288304618280@newsletter",
-                    newsletterName: "PK-XMD Bot Updates",
+                    newsletterJid: "120363400223711119@newsletter",
+                    newsletterName: "MEGA V2 Bot Updates",
                     serverMessageId: "",
                 }
             }
