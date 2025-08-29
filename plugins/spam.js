@@ -24,8 +24,8 @@ cmd({
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363288304618280@newsletter',
-      newsletterName: 'PK-XMD',
+      newsletterJid: '120363400223711119@newsletter',
+      newsletterName: 'MEGA V2',
       serverMessageId: 143
     }
   };
