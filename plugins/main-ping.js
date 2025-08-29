@@ -61,7 +61,7 @@ cmd({
       message: {
         contactMessage: {
           displayName: 'FILE UPLOADER ✅',
-          vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD BOT\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+          vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:MEGA V2 BOT\nORG:MEGA V2;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
           jpegThumbnail: null
         }
       }
@@ -77,7 +77,7 @@ cmd({
           title: "MEDIA TO URL CONVERTER",
           body: "Powered by Catbox.moe",
           thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
-          sourceUrl: "https://github.com/pkdriller",
+          sourceUrl: "https://github.com/Kelvin12350",
           mediaType: 1,
           renderLargerThumbnail: true,
           showAdAttribution: true
@@ -85,8 +85,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Bot Updates",
+          newsletterJid: "120363400223711119@newsletter",
+          newsletterName: "MEGA V2 Bot Updates",
           serverMessageId: Math.floor(Math.random() * 1000000).toString(),
         }
       }
