@@ -45,7 +45,7 @@ cmd({
             mediaType: 1,
             renderLargerThumbnail: false,
             thumbnail: thumbnailBuffer,
-            mediaUrl: "https://files.catbox.moe/l2t3e0.jpg", // Static image URL
+            mediaUrl: "https://files.catbox.moe/vbnd15.jpg", // Static image URL
             sourceUrl: "https://wa.me/message/INB2QVGXHQREO1",
             showAdAttribution: true
           }
