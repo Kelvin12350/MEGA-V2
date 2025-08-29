@@ -4,9 +4,9 @@
   "description": "A WhatsApp Bot Created By heatless",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name MEGA V2",
-    "stop": "pm2 stop MEGA V2",
-    "restart": "pm2 restart MEGA V2"
+    "start": "pm2 start index.js --deep-monitoring --attach --name PK-XMD",
+    "stop": "pm2 stop PK-XMD",
+    "restart": "pm2 restart PK-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
