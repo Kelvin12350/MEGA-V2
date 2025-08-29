@@ -9,16 +9,16 @@ cmd({
   pattern: "update",
   alias: ["upgrade", "sync"],
   react: '🧠',
-  desc: "Update PK-XMD bot from GitHub.",
+  desc: "Update MEGA V2 bot from GitHub.",
   category: "system",
   filename: __filename
 }, async (conn, m, text, { reply, isOwner }) => {
   if (!isOwner) return reply("❌ Only owner can use this command!");
 
   try {
-    await reply("🔎 Checking for PK-XMD updates...");
+    await reply("🔎 Checking for MEGA V2 updates...");
 
-    const repo = "officialPkdriller/PK-XMD";
+    const repo = "/Kelvin12350/mega-v2";
 
     const latestCommit = await axios.get(`https://api.github.com/repos/${repo}/commits/main`);
     const latestHash = latestCommit.data.sha;
@@ -41,7 +41,7 @@ cmd({
 
     await reply("🧩 Extracted. Replacing old files...");
 
-    const sourcePath = path.join(extractPath, "PK-XMD-main");
+    const sourcePath = path.join(extractPath, "MEGA V2-main");
     const destinationPath = path.join(__dirname, "..");
 
     copyFolderSync(sourcePath, destinationPath);
