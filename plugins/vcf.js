@@ -39,8 +39,8 @@ cmd({
         await conn.sendMessage(from, {
             document: fs.readFileSync(nmfilect), 
             mimetype: 'text/vcard', 
-            fileName: 'pkdriller.vcf', 
-            caption: `\nDone saving.\nGroup Name: *${cmiggc.subject}*\nContacts: *${cmiggc.participants.length}*\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ pkdriller ᴛᴇᴄʜ`}, { quoted: mek });
+            fileName: 'MEGA V2.vcf', 
+            caption: `\nDone saving.\nGroup Name: *${cmiggc.subject}*\nContacts: *${cmiggc.participants.length}*\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ MEGA V2 ᴛᴇᴄʜ`}, { quoted: mek });
 
         fs.unlinkSync(nmfilect); // Cleanup the file after sending
     } catch (err) {
