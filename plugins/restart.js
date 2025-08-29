@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart PK-XMD",  
+    desc: "Restart MEGA V2",  
     category: "owner",  
     filename: __filename  
 },  
