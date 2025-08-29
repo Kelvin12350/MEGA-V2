@@ -33,7 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*PK-XMD NPM SEARCH*
+*MEGA V2 NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}
